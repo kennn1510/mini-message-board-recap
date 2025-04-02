@@ -1,0 +1,17 @@
+<html>
+  <title><%= title %></title>
+</html>
+<body>
+  <h1>Hello, this is working, here is the title <%= title %></h1>
+
+  <ul>
+    <% for (let i = 0; i < messages.length; i++) { %>
+    <li>
+      Text: <%= messages[i].text %> <br />
+      User: <%= messages[i].user %> <br />
+      Date: <%= messages[i].added %>
+    </li>
+    <br />
+    <% } %>
+  </ul>
+</body>
