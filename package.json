@@ -1,0 +1,24 @@
+{
+  "name": "mini-message-board-recap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kennn1510/mini-message-board-recap.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kennn1510/mini-message-board-recap/issues"
+  },
+  "homepage": "https://github.com/kennn1510/mini-message-board-recap#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
